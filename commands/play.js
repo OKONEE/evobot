@@ -1,4 +1,4 @@
-const { play } = require("../include/play");
+
 const ytdl = require("ytdl-core");
 const YouTubeAPI = require("simple-youtube-api");
 const scdl = require("soundcloud-downloader").default
@@ -10,7 +10,7 @@ const i18n = require("i18n");
 i18n.setLocale(LOCALE);
 
 module.exports = {
-  name: "play",
+  name: "p",
   cooldown: 3,
   aliases: ["p"],
   description: i18n.__("play.description"),
